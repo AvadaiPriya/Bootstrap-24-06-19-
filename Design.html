@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    b{
+      font-size: 28px;
+    }
+    p
+    {
+      font-size: 12px;
+    }
+    .card{
+      background-color: black;
+    }
+    .image{
+      background-color: #212929;
+      width:10em;
+      height:5em;
+    }
+    .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card-header{
+  background-color: #2b949a;
+}
+.card-footer{
+  background-color: #5ecbd2;
+
+}
+.flex-column{
+  background-color: #fff;
+ text-decoration-color: #000;
+ margin-left: 5px;
+}
+.nav-item{
+  color: #ffffff;
+}
+
+
+    
+
+  </style>
+ 
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="card-header bg-info">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+  <a class="navbar-brand" href="#"><b>Zava</b></a>
+  <form class="form-inline">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" arial-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-o" type="submit">Search</button>
+  </form>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <div class="navbar-nav ml-auto">
+   
+   <ul class="navbar-nav ml-auto">
+
+    <li class="nav-item "><a href="#" class="nav-link" ><i class="fas fa-bell" style="color: white"></i> Siva</a></li>
+    <li class="nav-item "><a href="#" class="nav-link">Logout</a></li>
+    
+  </ul>
+
+
+   
+  </div>
+</div>
+
+
+</nav>
+</div>
+</div>
+
+  
+
+<br>
+
+  <div class="row">
+  <div class="col-sm-3">
+    
+    <div class="card">
+  <div class="card-header">Go to</div>
+
+<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+  <a class="nav-link" id="v-pills-friends-tab" data-toggle="pill" href="#v-pills-Friends" role="tab" aria-controls="v-pills-Friends" aria-selected="false">Friends</a>
+  <a class="nav-link" id="v-pills-Request-tab" data-toggle="pill" href="#v-pills-Request" role="tab" aria-controls="v-pills-Request" aria-selected="false">Friend Requests</a>
+  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Circles</a>
+  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Circle Requests</a>
+</div>
+</div>
+
+</div>
+<div class="container">
+<div class="col-lg-9">
+<div class="tab-content" id="v-pills-tabContent" aria-orientation="horizontal">
+  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="placebo">NewsFeed</div>
+  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+     <div class="card">
+  <div class="card-body">
+     <div class="card">
+  <div class="card-body bg-info">
+      <div class="card">
+    <div class="card-body bg-light">
+  
+  <div class="card-img-top">
+  
+
+<!--       <img class="card-img-top" src="profile1.jpeg" alt="Card image cap">
+ -->   <img class="card-img-top" src="/home/avadai/Documents/ PROJECT/ IMG/profile1.jpg" alt="Card image cap" height="250px";>
+</div>
+
+</div>
+<div class="card bg-light">
+  <div class="thumbnail">
+
+
+   
+
+ <img class="image" src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="image" ><br>
+ <b>AVADAI PRIYA  L</b><p> Intern at Tarento Technologies,Bangalore</p>
+</div>
+
+</div>
+
+</div>
+<br><br>
+<div class="card-body bg-light">
+  <div class="body-text">
+    <h1><b>Experience</b></h1>
+    <p1>Intern at Google Incorporation for 1 years<br>
+    2018-2019.</p1><b><hr></b>
+    <h1><b>Education</b></h1>
+    <p1>Dr.Sivanthi Aditanar College Of Engineering<br>B>E(CSE)<br>2015-2019</p1><br>
+        <div class="card-footer text-center">  Show More </div>
+  </div>
+</div>
+<br>
+
+<div class="card-body bg-light">
+  <div class="body-text">
+    <h1><b>Accomplishments:</b></h1>
+    <div class="card bg-light text-dark">
+      <h4><b>Project</b></h4>
+      <p1>Digital Image Processing:Satellite Images</p1>
+    </div>
+        <div class="card-footer text-center">  Show More </div>
+  </div>
+</div>
+<br>
+<div class="card-deck">
+ <div class="row">
+
+ 
+  <div class="column">
+    <div class="card">
+    <div class="card-body bg-light">
+      <h2><b>Skills</b></h2>
+      <dl>
+        <dt> Java
+      </dt>
+       <div class="progress">
+    <div class="progress-bar" style="width:30%"></div>
+  </div>
+      <dt>C++</dt>
+       <div class="progress">
+    <div class="progress-bar" style="width:30%"></div>
+  </div>
+      <dt>HTML</dt>
+       <div class="progress">
+    <div class="progress-bar" style="width:30%"></div>
+  </div>
+    </dl>
+        <div class="card-footer text-center">  Show More </div>
+    </div>
+  </div>
+
+ 
+</div>
+
+  <div class="column">
+    <div class="card">
+    <div class="card-body bg-light">
+
+      <h2><b>Tools Known</b></h2>
+      <ul>
+        <li>Eclipse</li>
+        <li>Sublime</li>
+        <li>Selenium</li>
+      </ul>
+          <div class="card-footer text-center">  Show More </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<br>
+<div class="card-body bg-light">
+  <div class="body-text">
+    <h1><b>Interets:</b></h1>
+    <ul>
+      <li>Digital Image Processing</li>
+      <li>Web Development</li>
+    </ul>
+      <div class="card-footer text-center">
+        Show More </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  <div class="tab-pane fade" id="v-pills-Friends" role="tabpanel" aria-labelledby="v-pills-friends-tab">
+  <div class="container">
+ <div class="card bg-info">
+  <div class="card-header">
+    <form class="form-inline">
+  <input class="form-control mr-sm-2 bg-light" type="search" placeholder="Search" arial-label="Search" >
+  <button class="btn btn-outline-success my-2 my-sm-o" type="submit" style="background-color: black">Search</button>
+  </form>
+</div>
+   <table class="table table-striped bg-light ">
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Avadai Priya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Priya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Bala</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Ramya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Krishna</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Vimal</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+       <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Vishnu Priya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+       <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Naveen</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Message</button></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</div>
+</div>
+  <div class="tab-pane fade" id="v-pills-Request" role="tabpanel" aria-labelledby="v-pills-Request"> 
+
+  <div class="container">
+   
+ <div class="card">
+  <div class="card-header">
+    <form class="form-inline">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" arial-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-o" type="submit" style="background-color: black">Search</button>
+  </form>
+</div>
+   <table class="table table-striped bg-light">
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Avadai Priya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Priya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Bala</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Ramya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Krishna</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+      <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Vimal</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+       <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Vishnu Priya</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+       <tr>
+        <td> <img src="/home/avadai/Documents/ PROJECT/ IMG/Image.jpg" alt="vj" height="50em" width="80em"></td>
+        <td>  <b>Naveen</b>
+        <p>Intern at Tarento Technologies,Bangalore</p></td>
+        <td><button>Friend Request</button></td>
+      </tr>
+    </table>
+  </div>
+</div>
+  </div>
+  
+  
+   <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
+</div>
+</div>
+</div>
+  <div class="col-sm-3">
+    <div class="card">
+       <div class="card-header">Your Circles </div>
+    </div>
+  </div>
+</body>
+</html>
